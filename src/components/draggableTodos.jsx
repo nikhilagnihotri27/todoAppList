@@ -10,7 +10,7 @@ const reorder = (list, startIndex, endIndex) => {
   result.splice(endIndex, 0, removed);
   return result;
 };
-/*** Reorders draggable lists for DND library **/
+/**** Reorders draggable lists for DND library **/
 
 /**** Component for individual draggable todos *****/
 const TodoList = ({ todos, setTodos, parentTodos }) => {
